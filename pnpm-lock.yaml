@@ -11,6 +11,7 @@ specifiers:
   babel-jest: ^25.5.1
   babel-loader: ^8.1.0
   css-loader: ^3.5.3
+  dotenv: ^10.0.0
   eslint: ^6.8.0
   eslint-plugin-jest: ^23.11.0
   eslint-plugin-react: ^7.19.0
@@ -28,6 +29,7 @@ specifiers:
 
 dependencies:
   axios: 0.19.2
+  dotenv: 10.0.0
   express: 4.17.1
   react: 16.14.0
   react-dom: 16.14.0_react@16.14.0
@@ -3314,6 +3316,11 @@ packages:
       no-case: 3.0.4
       tslib: 2.3.0
     dev: true
+
+  /dotenv/10.0.0:
+    resolution: {integrity: sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==}
+    engines: {node: '>=10'}
+    dev: false
 
   /duplexify/3.7.1:
     resolution: {integrity: sha512-07z8uv2wMyS51kKhD1KsdXJg5WQ6t93RneqRxUHnskXVtlYYkLqM0gqStQZ3pj073g687jPCHrqNfCzawLYh5g==}
