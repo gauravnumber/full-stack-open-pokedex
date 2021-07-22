@@ -9,11 +9,11 @@ const PORT = process.env.PORT || 5000
 app.use(express.static('dist'))
 
 app.get('/health', (req, res) => {
-  res.send('ok')
+  res.send('not ok')
 })
 
 app.get('/version', (req, res) => {
-  res.send('4') // change this string to ensure a new version deployed
+  res.send('5')
 })
 
 
