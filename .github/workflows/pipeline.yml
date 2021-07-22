@@ -38,5 +38,5 @@ jobs:
           heroku_app_name: "gauravnumber-open-pokedex"
           heroku_email: "gauravnumber@gmail.com"
           healthcheck: "https://gauravnumber-open-pokedex.herokuapp.com/health"
-          checkstring: "may be not ok"
+          checkstring: "ok"
           rollbackonhealthcheckfailed: true
