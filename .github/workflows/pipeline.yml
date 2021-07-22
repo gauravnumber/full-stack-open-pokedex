@@ -5,9 +5,9 @@ on:
     branches:
       - master
   pull_request:
-    branches: [main]
+    # branches: [main]
     types: [opened, synchronize]
-    
+
 jobs:
   simple_deployment_pipeline:
     runs-on: ubuntu-18.04
