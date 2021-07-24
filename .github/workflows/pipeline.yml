@@ -36,6 +36,13 @@ jobs:
           start: npm run start-prod
           wait-on: http://localhost:5000
       
+      # SCHEDULE HEALTH CHECK
+      - name: Check the deployed service URL
+        uses: jtalk/url-health-check-action@v1.5
+        with:
+          # Check the following URLs one by one sequentially
+          url: https://gauravnumber-open-pokedex.herokuapp.com/version
+
       # TELEGRAM NOTIFICATION
       # - name: send custom message with args
       #   uses: appleboy/telegram-action@master
