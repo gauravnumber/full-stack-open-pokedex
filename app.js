@@ -13,7 +13,7 @@ app.get('/health', (req, res) => {
 })
 
 app.get('/version', (req, res) => {
-  res.send('28')
+  res.send('29')
 })
 
 
